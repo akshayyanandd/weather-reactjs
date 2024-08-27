@@ -1,0 +1,26 @@
+.text {
+    width: 100%;
+    border: none;
+    padding: 3px;
+}
+.text:focus,
+input:focus {
+    border: none;
+}
+.input {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    padding: 4px;
+    margin: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.button {
+    padding: 4px;
+    margin: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
