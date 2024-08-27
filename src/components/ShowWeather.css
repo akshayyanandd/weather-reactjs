@@ -1,0 +1,26 @@
+.cardbox {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 10px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.end,
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    padding-left: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
