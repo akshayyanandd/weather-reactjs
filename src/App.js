@@ -28,7 +28,7 @@ function App() {
         console.log(weatherData);
         setWeather(weatherData);
     };
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=9d8fd1be238b3a89a507b7313fad6837&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=98ae1e71a914eae6af908ea2de173ca8&units=metric`;
     useEffect(() => {
         getData();
     }, []);
